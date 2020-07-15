@@ -3,7 +3,8 @@
         { "src": "/about", "dest": "/about.html" },
         { "src": "/hello", "dest": "/hello.html" },
         { "src": "/rw/(.*)", "dest": "/api/hello.js" },
-        { "src": "/rw2/(.*)", "dest": "/api/" }
+        { "src": "/rw2/(.*)", "dest": "/api/hello" },
+        { "src": "/lambda/(.*)", "dest": "/lambda/hello.js" }
     ],
     "builds": [
         { "src": "/lambda/*.js", "use": "@vercel/node" },
