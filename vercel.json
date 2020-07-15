@@ -2,8 +2,11 @@
     "routes": [
         { "src": "/about", "dest": "/about.html" },
         { "src": "/hello", "dest": "/hello.html" },
-        { "src": "/functions/(.*)", "dest": "/lambda/hello.js" },
         { "src": "/rw/(.*)", "dest": "/api/hello.js" },
         { "src": "/rw2/(.*)", "dest": "/api/" }
+    ],
+    "builds": [
+        { "src": "/lambda/*.js", "use": "@vercel/node" },
+        { "src": "/functions/**/*.js", "use": "@vercel/node" } 
     ]
 }
