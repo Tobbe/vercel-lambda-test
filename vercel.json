@@ -2,8 +2,6 @@
     "routes": [
         { "src": "/about", "dest": "/about.html" },
         { "src": "/hello", "dest": "/hello.html" },
-        { "src": "/api", "dest": "/hello.js" },
-        { "src": "/api/(.*)", "dest": "/hello.js" },
         { "src": "/functions/(.*)", "dest": "/lambda/hello.js" },
         { "src": "/rw/(.*)", "dest": "/api/hello.js" },
         { "src": "/rw2/(.*)", "dest": "/api/" }
