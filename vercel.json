@@ -4,7 +4,7 @@
         { "src": "/hello", "dest": "/hello.html" },
         { "src": "/rw/(.*)", "dest": "/api/hello.js" },
         { "src": "/rw2/(.*)", "dest": "/api/hello" },
-        { "src": "/lambda/(.*)", "dest": "/api/hello.js" }
+        { "src": "/lambda/(.*)", "dest": "/api/hello.js" },
         { "src": "/api/hello/(.*)", "dest": "/api/hello.js" }
     ]
 }
