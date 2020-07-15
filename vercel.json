@@ -6,5 +6,6 @@
         { "src": "/api/(.*)", "dest": "/hello.js" },
         { "src": "/functions/(.*)", "dest": "/lambda/hello.js" }
         { "src": "/rw/(.*)", "dest": "/api/hello.js" }
+        { "src": "/rw2/(.*)", "dest": "/api/" }
     ]
 }
