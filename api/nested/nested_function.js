@@ -5,6 +5,6 @@ module.exports = (req, res) => {
     cookies: req.cookies,
     url: req.url,
     path: req.path,
-    id: 'api/nested/hello.js'
+    id: 'api/nested/nested_function.js'
   })
 }
