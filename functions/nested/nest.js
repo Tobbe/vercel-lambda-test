@@ -4,6 +4,7 @@ module.exports = (req, res) => {
     query: req.query,
     cookies: req.cookies,
     url: req.url,
-    path: req.path
+    path: req.path,
+    id: 'functions/nested/nest.js'
   })
 }
